@@ -1,7 +1,7 @@
 {
-  "name": "validarcartao",
+  "name": "creditcardvalidator-mk",
   "version": "1.0.0",
-  "description": "",
+  "description": "validação de número de cartão de crédito a partir do dígito verificador",
   "main": "index.js",
   "directories": {
     "test": "test"
