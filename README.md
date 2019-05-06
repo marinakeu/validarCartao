@@ -1,4 +1,4 @@
-# Validador de Cartão de Crédito v.1.0.0
+# Validador de Cartão de Crédito v.1.0.1
 
 **Esta biblioteca se destina à validação de número de cartão de crédito a partir do dígito verificador.**  Na versão atual é possível verificar a partir de algoritmo de Luhn o último dígito do número do cartão, sem, contudo, verificar a existência deste nas instituições financeiras.
 
