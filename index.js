@@ -1,11 +1,11 @@
 function cardValidator (cardNumberString) {
   let cardNumber = cardNumberString.split('');
-  if (hasFourteenOrMoreDifferentDigits(cardNumber) && digitValidator(cardNumber)) return true;
+  if (hasDifferentDigits(cardNumber) && digitValidator(cardNumber)) return true;
   return false;
 }
 
-function hasFourteenOrMoreDifferentDigits (cardNumber) {
-  if (cardNumber.length < 14 || cardNumber.every(digit => digit === cardNumber[0])) return false;  
+function hasDifferentDigits (cardNumber) {
+  if (cardNumber.length < 13 || cardNumber.length > 16 || cardNumber.every(digit => digit === cardNumber[0])) return false;  
   return true;
 }
   
